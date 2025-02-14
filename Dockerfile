@@ -1,4 +1,4 @@
-FROM debian:bookworm
+FROM debian:bookworm-slim
 LABEL maintainer="Xueyuan, Jiang <alexxyjiang@gmail.com>"
 ENV USER="texuser" PASSWD="latex" SHELL="/bin/bash" UID="8086" GID="8086"
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8 DEBIAN_FRONTEND=noninteractive
